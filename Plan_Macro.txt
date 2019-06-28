@@ -1,0 +1,5 @@
+créer une classe TelNumber
+créer une méthode publique getTelNumber qui prend en paramètres un int officeAreaNumber et un int number et retourne une string
+cette méthode renvoie la concaténation en string de officeAreaNumber et number
+dans la fonction getTelNumber de Person, remplacer le return par return TelNumber.getTelNumber(officeAreaNumber, number)
+supprimer le reste dans cette fonction

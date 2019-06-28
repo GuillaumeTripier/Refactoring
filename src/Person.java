@@ -7,6 +7,10 @@ public class Person {
         this.name = name;
     }
 
+    public String getName(){
+        return name;
+    }
+
     public String getTelNumber(){
         return("" + this.officeAreaCode + "" + number);
     }
@@ -15,15 +19,15 @@ public class Person {
         return number;
     }
 
-    public void setNumber(int number) {
+    private void setNumber(int number) {
         this.number = number;
     }
 
-    public int getOfficeAreaCode() {
+    private int getOfficeAreaCode() {
         return officeAreaCode;
     }
 
-    public void setOfficeAreaCode(int officeAreaCode) {
+    private void setOfficeAreaCode(int officeAreaCode) {
         this.officeAreaCode = officeAreaCode;
     }
 }

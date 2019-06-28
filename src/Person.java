@@ -19,7 +19,7 @@ public class Person {
         return number;
     }
 
-    private void setNumber(int number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 
@@ -27,7 +27,7 @@ public class Person {
         return officeAreaCode;
     }
 
-    private void setOfficeAreaCode(int officeAreaCode) {
+    public void setOfficeAreaCode(int officeAreaCode) {
         this.officeAreaCode = officeAreaCode;
     }
 }

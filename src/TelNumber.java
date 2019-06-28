@@ -1,5 +1,5 @@
 public class TelNumber {
-    public String getTelNumber(int officeAreaCode, int number){
+    public static String getTelNumber(int officeAreaCode, int number){
         return("" + officeAreaCode + "" + number);
     }
 }

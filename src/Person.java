@@ -12,7 +12,7 @@ public class Person {
     }
 
     public String getTelNumber(){
-        return("" + this.officeAreaCode + "" + number);
+        return(TelNumber.getTelNumber(this.officeAreaCode, this.number));
     }
 
     public int getNumber() {
